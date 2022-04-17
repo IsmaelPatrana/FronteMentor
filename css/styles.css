@@ -45,7 +45,6 @@ body {
 
 .planes {
     display: inline-flex;
-    margin: 12px;
     align-items: center;
     font-family: 'Aton', sans-serif;
 
@@ -56,3 +55,21 @@ body {
     text-decoration: none;
 }
 
+/*Botones */ 
+
+.boton-box input {
+    background-color: #023e8a;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    color: white;
+}
+
+.boton-box a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: gray;
+}
