@@ -1,0 +1,58 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+body {
+    background-color: grey;
+}
+
+#container {
+    text-align: center;
+    width: 300px;
+    margin-left: 30%;
+    border-radius: 20px;
+    margin-top: 3%;
+    background-color: white;
+    }
+
+    /* Imagen de la tarjeta */
+.header-box img {
+    width: 100%;
+}
+
+/* Textto de la terjeta  */
+
+.text-box {
+    margin-top: 15px;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+.text-box h4 {
+    margin: 10px;
+}
+
+.text-box p {
+    font-size: 10px;
+    color: grey;
+}
+
+/*Planes de la tarjeta */
+
+.planes {
+    display: inline-flex;
+    margin: 12px;
+    align-items: center;
+    font-family: 'Aton', sans-serif;
+
+}
+
+.planes img, p, a {
+    margin: 5px;
+    text-decoration: none;
+}
+
